@@ -1,0 +1,3 @@
+#To restart the network connexion => 'cause ingesup's DCHP is so fucking slow, the most of debian's reaction is to declare the bringing up connexion is failing.
+#So fucking upset me! (val)
+sudo /etc/init.d/networking restart
