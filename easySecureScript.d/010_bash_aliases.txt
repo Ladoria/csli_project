@@ -1,0 +1,9 @@
+#modifier /etc/skel/bashrc. /etc/skel/bash_aliases /root/bashrc /root/bash_aliases
+
+#bashrc
+if [ -f ~/.bash_aliases ]; then
+	. ~/.bash_aliases
+if
+
+alias ll="ls -la --color=auto"
+alias grep="grep --color=auto"

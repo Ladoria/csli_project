@@ -1,0 +1,29 @@
+Grandes lignes :
+Partir d'une machine sous debian squeeze.
+Créer un script d'installation et de configuration des services, utilitaires, programmes jugé indispensable pour la sécurisation d'un serveur :
+- ssh-server.
+- sudo: groupes, droits et commandes.
+- configuration d'Iptables: en fonction des installations + script utilitaire de consultation du fichier (sélection d'information, coloration).
+- personnalisation du bash commun (skeleton).
+- reporting: munin.
+- htop.
+- failtoban.
+- script de vérification d'emprunte de fichier.
+
+
+Test à effectuer après installation :
+- nmap.
+- nesus.
+
+
+Effectué :
+- Machine virtuelle montée et sauvegardée.
+- Machine de test up.
+- Configuration réseau.
+- Personnalisation du bash.
+- ssh-server.
+- sudo.
+
+
+Problèmes rencontrés :
+Interface non up => définition d'une nouvelle (accès réseau)

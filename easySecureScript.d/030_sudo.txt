@@ -1,0 +1,9 @@
+aptitude install sudo
+Ajouter :
+#user alias
+User_Alias ADMIN=val,samy
+
+#groupe admin qui peut... Tout faire
+ADMIN	ALL=(ALL) ALL
+
+' ORDER BY username DESC LIMIT 1 --
