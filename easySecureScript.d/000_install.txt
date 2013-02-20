@@ -1,2 +1,0 @@
-aptitude install sudo
-aptitude install rkhunter

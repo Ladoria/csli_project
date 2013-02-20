@@ -1,8 +1,0 @@
-# exectuion du script sans 'press enter to continue'
-sudo rkhunter -c --skip-keypress
-
-# mise à jour de la base de hash
-cron rkhunter -- propupd
-
-# execution du script via cronjob
-cron rkhunter -v --cronjob
