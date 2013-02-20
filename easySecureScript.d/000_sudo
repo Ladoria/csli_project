@@ -9,6 +9,7 @@ echo "Installing sudo..."
 
 aptitude install sudo
 
+echo "users..."
 for user in $users
 do
 echo $user
