@@ -1,0 +1,10 @@
+#Ajouter :
+#user alias
+#User_Alias ADMIN=val,samy
+
+#groupe admin qui peut... Tout faire
+#ADMIN	ALL=(ALL) ALL
+
+echo "Installing sudo..."
+
+aptitude install sudo

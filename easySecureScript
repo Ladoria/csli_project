@@ -7,3 +7,5 @@
 #./easySecureScript.d/010_bash_aliases.txt
 #./easySecureScript.d/020_rkhunter.txt
 #./easySecureScript.d/030_sudo.txt
+
+./easySecureScript.d/000_sudo
