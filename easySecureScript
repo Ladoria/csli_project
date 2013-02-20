@@ -3,12 +3,14 @@
 
 #list every script right down here.
 
-user[0]=test0
-user[1]=test1
+users[0]=val
+users[1]=samy
+
+echo ${#users[@]}
 
 #./easySecureScript.d/000_install.txt
 #./easySecureScript.d/010_bash_aliases.txt
 #./easySecureScript.d/020_rkhunter.txt
 #./easySecureScript.d/030_sudo.txt
 
-./easySecureScript.d/000_sudo
+. easySecureScript.d/000_sudo

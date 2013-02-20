@@ -7,10 +7,10 @@
 
 echo "Installing sudo..."
 
-aptitude install sudo
+#aptitude install sudo
 
-echo "users..."
-for((i=0; i < $#users; i++))do
-echo $user
-#usermod -g sudo $user
+for((i=0; i < ${#users[@]}; i++));
+do
+echo "adding ${users[$i]} to sudo group"
+usermod -g sudo ${users[$i]}
 done
