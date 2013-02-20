@@ -3,6 +3,9 @@
 
 #list every script right down here.
 
+user[0] = "test0"
+user[1] = "test1"
+
 #./easySecureScript.d/000_install.txt
 #./easySecureScript.d/010_bash_aliases.txt
 #./easySecureScript.d/020_rkhunter.txt
