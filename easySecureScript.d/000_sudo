@@ -8,3 +8,9 @@
 echo "Installing sudo..."
 
 aptitude install sudo
+
+for user in users
+do
+echo $user
+#usermod -g sudo $user
+done
