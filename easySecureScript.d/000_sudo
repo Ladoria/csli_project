@@ -10,7 +10,7 @@ echo "Installing sudo..."
 aptitude install sudo
 
 echo "users..."
-for (i=0; i < $#users; i++) do
+for((i=0; i < $#users; i++))do
 echo $user
 #usermod -g sudo $user
 done
