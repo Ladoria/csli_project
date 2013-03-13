@@ -11,6 +11,6 @@ aptitude install sudo
 
 for((i=0; i < ${#users[@]}; i++));
 do
-echo "adding ${users[$i]} to sudo group"
-usermod -g sudo ${users[$i]}
+  echo "adding ${users[$i]} to sudo group"
+  usermod -g sudo ${users[$i]}
 done
