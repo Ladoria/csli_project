@@ -16,3 +16,4 @@ echo ${#users[@]}
 . easySecureScript.d/000_sudo
 . easySecureScript.d/010_bash_custom
 . easySecureScript.d/020_rkhunter
+. easySecureScript.d/010_bash_aliases

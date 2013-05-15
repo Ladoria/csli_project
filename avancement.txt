@@ -9,6 +9,7 @@ Créer un script d'installation et de configuration des services, utilitaires, pr
 - htop.
 - failtoban.
 - script de vérification d'emprunte de fichier.
+- apache : disable les .svn, .git
 
 
 Test à effectuer après installation :
