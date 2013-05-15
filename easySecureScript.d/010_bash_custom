@@ -1,0 +1,10 @@
+#modifier /etc/skel/bashrc. /etc/skel/bash_aliases /root/bashrc /root/bash_aliases
+
+echo '###Configuring skeleton...###'
+
+#bashrc => pas besoin
+
+#bash_aliases
+echo '> bash_aliases'
+echo 'alias ll="ls -la --color=auto"' > /etc/skel/.bash_aliases
+echo 'alias grep="grep --color=auto"' >> /etc/skel/.bash_aliases
