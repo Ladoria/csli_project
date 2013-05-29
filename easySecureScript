@@ -14,7 +14,6 @@ users[1]=samy
 #./easySecureScript.d/030_sudo.txt
 
 ./easySecureScript.d/000_install
-. easySecureScript.d/005_sudo
-. easySecureScript.d/010_bash_custom
-. easySecureScript.d/020_rkhunter
-. easySecureScript.d/010_bash_aliases
+./easySecureScript.d/005_sudo
+./easySecureScript.d/010_bash_custom
+./easySecureScript.d/020_rkhunter

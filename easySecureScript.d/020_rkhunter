@@ -1,9 +1,11 @@
-echo #####installing rkhunter#####
+echo 'Installing rkhunter...'
 
 aptitude install rkhunter
 
 
 # execution du script via cronjob
+
+echo 'Configuration of rkhunter...'
 
 crontab -l > cron.tmp
 echo '0 4 * * Sat rkhunter --cronjob' >> cron.tmp
