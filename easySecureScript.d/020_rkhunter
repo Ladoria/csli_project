@@ -1,5 +1,5 @@
 echo #####installing rkhunter#####
 
-aptitude install rkhutner
+aptitude install rkhunter
 
 
