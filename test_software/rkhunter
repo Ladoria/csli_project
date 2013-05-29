@@ -1,0 +1,3 @@
+crontab -l > cron.tmp
+echo '0 4 * * Sat rkhunter --cronjob' >> cron.tmp
+crontab cron.tmp

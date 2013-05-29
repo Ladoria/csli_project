@@ -6,14 +6,15 @@
 users[0]=val
 users[1]=samy
 
-echo ${#users[@]}
+#echo ${#users[@]}
 
 #./easySecureScript.d/000_install.txt
 #./easySecureScript.d/010_bash_aliases.txt
 #./easySecureScript.d/020_rkhunter.txt
 #./easySecureScript.d/030_sudo.txt
 
-. easySecureScript.d/000_sudo
+./easySecureScript.d/000_install
+. easySecureScript.d/005_sudo
 . easySecureScript.d/010_bash_custom
 . easySecureScript.d/020_rkhunter
 . easySecureScript.d/010_bash_aliases
