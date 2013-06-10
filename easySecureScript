@@ -1,12 +1,16 @@
 #!/bin/bash
 #Run this script with admin level.
 
+echo 'Starting easySecureScript.'
+
 #list every script right down here.
 
-users[0]=val
-users[1]=samy
+#users[0]=val
+#users[1]=samy
 
-#echo ${#users[@]}
+./conf.cfg
+
+echo ${users[0]}
 
 #./easySecureScript.d/000_install.txt
 #./easySecureScript.d/010_bash_aliases.txt
@@ -17,3 +21,5 @@ users[1]=samy
 ./easySecureScript.d/005_sudo
 ./easySecureScript.d/010_bash_custom
 ./easySecureScript.d/020_rkhunter
+
+echo 'Exiting easySecureScript'
